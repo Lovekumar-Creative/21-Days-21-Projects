@@ -85,7 +85,7 @@ with st.sidebar:
     st.title("Controls")
     uploaded = st.file_uploader("Upload a CSV file (optional)", type=["csv"], help="If you have your own Titanic CSV (train.csv), upload it here.")
     st.markdown("**Mode**: Choose how much detail you want.")
-    mode = st.radio("", ["Simple (for everyone)", "Advanced (for analysts)"])
+    mode = st.radio("Choose analysis mode", ["Simple (for everyone)", "Advanced (for analysts)"])
     st.markdown("---")
     st.markdown("**Quick tips**: Use the filters below to narrow data. Then explore charts or download results.")
 
@@ -145,7 +145,7 @@ st.markdown(
 header_col1, header_col2 = st.columns([1.6, 3])
 with header_col1:
     st.image("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-             caption="RMS Titanic (historic photo) — dataset inspired by the ship", use_column_width=True)
+             caption="RMS Titanic (historic photo) — dataset inspired by the ship", use_container_width=True)
 with header_col2:
     st.markdown('<div class="title-font">Titanic — Easy Exploratory Data Analysis</div>', unsafe_allow_html=True)
     st.markdown('<div class="lead">An interactive, beginner-friendly visualization of the Titanic passenger dataset. No programming required — use filters and buttons to explore.</div>', unsafe_allow_html=True)
@@ -217,25 +217,25 @@ with tabs[1]:
         if col_age:
             df_work[col_age] = df_work[col_age].fillna(df_work[col_age].median())
             st.success("Filled missing ages with median.")
-            st.experimental_rerun()
+            st.rerun()
 
     if st.button("Fill missing Fare with median"):
         if col_fare:
             df_work[col_fare] = df_work[col_fare].fillna(df_work[col_fare].median())
             st.success("Filled missing fares with median.")
-            st.experimental_rerun()
+            st.rerun()
 
     if st.button("Fill missing Embarked with mode"):
         if col_emb:
             df_work[col_emb] = df_work[col_emb].fillna(df_work[col_emb].mode().iloc[0])
             st.success("Filled missing Embarked with most common value.")
-            st.experimental_rerun()
+            st.rerun()
 
     if col_cabin:
         if st.button("Create has_cabin flag"):
             df_work["has_cabin"] = df_work[col_cabin].notnull().astype(int)
             st.success("Created has_cabin flag.")
-            st.experimental_rerun()
+            st.rerun()
 
 # ---------- Charts (Simple) ----------
 with tabs[2]:
