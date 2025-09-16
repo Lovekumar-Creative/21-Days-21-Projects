@@ -48,10 +48,9 @@ Explore and analyze Netflix dataset to uncover insights about content trends, ra
 
 ## 🚀 Day 4 Project: Smart Segmentation (Using k-Means and Agglomerative Clustring)
 
-Explore and analyze Netflix dataset to uncover insights about content trends, ratings, and release years.  
+Smart Segmentation is a customer segmentation project that analyzes customer data to identify meaningful groups based on their purchasing behavior. By applying clustering techniques and visualization, the project helps uncover patterns such as spending habits, income distribution, and customer preferences. This segmentation can be used by businesses to design targeted marketing strategies, improve customer engagement, and optimize decision-making.
 
-### 📂 Open in Google Colab  
-<a href="https://colab.research.google.com/drive/1OHRg6acdVhqitVSnC2xoeHguE-VgjCnm?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/12yoHqc496rdkORnSZAppbm0UXfqNAD4E?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
 
