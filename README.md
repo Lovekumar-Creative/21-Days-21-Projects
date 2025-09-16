@@ -46,7 +46,7 @@ Explore and analyze Netflix dataset to uncover insights about content trends, ra
 
 ---
 
-## 🚀 Day 4 Project: Smart Segmentation (Using k-Means and Agglomerative Clustring)
+## 🚀 Day 5 Project: Smart Segmentation (Using k-Means and Agglomerative Clustering)
 
 Smart Segmentation is a customer segmentation project that analyzes customer data to identify meaningful groups based on their purchasing behavior. By applying clustering techniques and visualization, the project helps uncover patterns such as spending habits, income distribution, and customer preferences. This segmentation can be used by businesses to design targeted marketing strategies, improve customer engagement, and optimize decision-making.
 
