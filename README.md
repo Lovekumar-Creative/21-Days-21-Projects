@@ -6,7 +6,6 @@
 
 Analyzed the Titanic dataset to uncover insights on passenger survival patterns using data cleaning, visualization, and statistical analysis.
 
-### 📂 Open in Google Colab  
 <a href="https://colab.research.google.com/drive/19jq2Os_wxkE6WgXK0h4VNDQFsSicXiuh?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
@@ -17,7 +16,6 @@ Analyzed the Titanic dataset to uncover insights on passenger survival patterns 
 
 Explore and analyze Netflix dataset to uncover insights about content trends, ratings, and release years.  
 
-### 📂 Open in Google Colab  
 <a href="https://colab.research.google.com/drive/1OHRg6acdVhqitVSnC2xoeHguE-VgjCnm?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
@@ -26,21 +24,19 @@ Explore and analyze Netflix dataset to uncover insights about content trends, ra
 
 ## 🚀 Day 3 Project: House Prices Prediction (Advanced Regression Techniques)
 
-Explore and analyze Netflix dataset to uncover insights about content trends, ratings, and release years.  
+House Prices Prediction (Advanced Regression Techniques) – Built machine learning models on the Ames Housing dataset to predict home prices using advanced regression techniques. Applied data preprocessing, feature engineering, and log-transformations, then combined models like Ridge, Lasso, XGBoost, and LightGBM in an ensemble to achieve low RMSE on the Kaggle leaderboard.
 
-### 📂 Open in Google Colab  
-<a href="https://colab.research.google.com/drive/1OHRg6acdVhqitVSnC2xoeHguE-VgjCnm?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/1VWS3YgKpQjR19XexnNuCvWoMPqfbr5py?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
 
 ---
 
-## 🚀 Day 4 Project: Heart Diseases Classification
+## 🚀 Day 4 Project: Heart Diseases Classification 🩺
 
-Explore and analyze Netflix dataset to uncover insights about content trends, ratings, and release years.  
+Heart Disease Prediction (Classification) – Built a machine learning model to predict the presence of heart disease using clinical features such as age, cholesterol, and blood pressure. Applied data preprocessing, exploratory analysis, and trained classifiers (Logistic Regression, Random Forest, XGBoost), achieving high accuracy and strong recall for early detection of heart disease.
 
-### 📂 Open in Google Colab  
-<a href="https://colab.research.google.com/drive/1OHRg6acdVhqitVSnC2xoeHguE-VgjCnm?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/1h6nygIVIHS3Lpc9u72sRNuCl0TTjAy9X?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
 
@@ -61,6 +57,16 @@ Smart Segmentation is a customer segmentation project that analyzes customer dat
 Developed predictive models on real-world time series data to analyze historical trends and forecast future values. Applied techniques such as data preprocessing, trend and seasonality detection, and visualization using Plotly/Matplotlib. Built forecasting models (ARIMA, SARIMA, Prophet) to predict future passenger demand, providing insights into long-term patterns and short-term fluctuations.
 
 <a href="https://colab.research.google.com/drive/1vEzvP7YGtijBJ3cf7oRn-WUD6CD86J2J?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
+</a>
+
+---
+
+## 🚀 Day 7 Project: Customer Churn Prediction (Feature Engineering)  
+
+This project builds a customer churn prediction model with a focus on advanced feature engineering and data cleaning. It includes techniques like binning, feature combination, and category simplification, all integrated into a Scikit-Learn pipeline using ColumnTransformer. Multiple models are trained and compared to highlight the performance boost from engineered features.
+
+<a href="https://colab.research.google.com/drive/19jq2Os_wxkE6WgXK0h4VNDQFsSicXiuh?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
 
