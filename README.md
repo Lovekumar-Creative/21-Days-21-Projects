@@ -79,3 +79,13 @@ Built a CNN model to classify 60,000 images across 100 categories from the CIFAR
 <a href="https://colab.research.google.com/drive/1pmhRpIJ21BCKnXwKIrX8pKFGB35ptdEV?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
+
+---
+
+## 🚀 Day 14 Project: Basic Python Code generator (using pretrained model) 
+
+Developed a Python-based code generator using a pre-trained model. Implemented a filtering mechanism to ensure the model only responds to Python coding queries and returns either code-with-explanation outputs. Tested the system with multiple prompts to validate accurate and context-specific code generation.
+
+<a href="https://colab.research.google.com/drive/1s2OLziieUGY9LXnn5ILbuVTxHdnetTcO?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
+</a>
