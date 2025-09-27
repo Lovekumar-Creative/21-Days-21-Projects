@@ -82,6 +82,16 @@ Built a CNN model to classify 60,000 images across 100 categories from the CIFAR
 
 ---
 
+## 🚀 Day 9 Project: Flower Recognition on Oxford Flowers 102 using Transfer Learning 
+
+Applied transfer learning on the Oxford Flowers 102 dataset using pre-trained CNN models (ResNet50, VGG16, MobileNetV2). Performed data preprocessing, normalization, and model-specific transformations. Trained and fine-tuned models with custom classification layers to recognize 102 flower categories, and compared performance across different architectures.  
+
+<a href="https://colab.research.google.com/drive/1c1_8NZdAyYo-9nrWiuehq6Dlt9wAxpuQ?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
+</a>
+
+---
+
 ## 🚀 Day 14 Project: Basic Python Code generator (using pretrained model) 
 
 Developed a Python-based code generator using a pre-trained model. Implemented a filtering mechanism to ensure the model only responds to Python coding queries and returns either code-with-explanation outputs. Tested the system with multiple prompts to validate accurate and context-specific code generation.
