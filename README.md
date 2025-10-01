@@ -66,7 +66,7 @@ Developed predictive models on real-world time series data to analyze historical
 
 This project builds a customer churn prediction model with a focus on advanced feature engineering and data cleaning. It includes techniques like binning, feature combination, and category simplification, all integrated into a Scikit-Learn pipeline using ColumnTransformer. Multiple models are trained and compared to highlight the performance boost from engineered features.
 
-<a href="https://colab.research.google.com/drive/19jq2Os_wxkE6WgXK0h4VNDQFsSicXiuh?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/11O72ToBjA9Hf_cG9SrjdNKAC2anOGwuB?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Open in Colab"/>
 </a>
 
